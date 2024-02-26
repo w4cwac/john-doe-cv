@@ -1,0 +1,36 @@
+.service {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 100px;
+  }
+ 
+  
+  .bloc-service {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+    width: 400px;
+    height: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .image-service {
+    width: 50px;
+    height: auto;
+    margin: 40px;
+  }
+  
+  .titre-service {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .details-services {
+    text-align: center;
+    font-size: 16px;
+  }

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fond{
+    background: rgba(0, 105, 255, 0.5);
+}
+
+
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact form{
+    text-align: center;
+}
+
+input::placeholder{
+    color: #444;
+}
+
+input {
+    width: 550px;
+    border-radius: 5px;
+    border-color: grey;
+    border-width: 1px;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+textarea {
+    width: 550px;
+    height: 150px;
+    border-radius: 5px;
+    border-color: grey;
+    padding: 5px 10px;
+    margin: 0;
+}
+.icone {
+    width: 24px;
+    height: 24px;
+    margin: 5px 10px;
+}
+
+.submit-button{
+    height:40px;
+    background-color: #EEE;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}

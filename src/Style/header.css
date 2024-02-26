@@ -1,0 +1,36 @@
+.navbar{
+    background-color: #eee;
+}
+
+img:hover{
+    color: #cde1f8;
+}
+
+.nav-link{
+    color: #444 !important;
+}
+
+.nav-link:hover{
+    text-decoration: underline !important;
+}
+
+.nav-link:active{
+    color: red !important;
+}
+
+.active{
+    color: red !important;
+}
+
+
+
+.navbar-toggler{
+    border: solid !important;
+}
+
+
+
+.navbar-nav{
+    position: relative;
+    left: 50%;
+}
